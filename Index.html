@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reforestify – Fight Land Degradation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌳 Reforestify</h1>
+    <p>Combating Land Degradation Through Reforestation</p>
+  </header>
+
+  <section id="about">
+    <h2>Why Reforestation?</h2>
+    <p>
+      Reforestation restores degraded land by planting trees that prevent erosion, enrich soil, and improve biodiversity. It's one of the most effective ways to combat land degradation.
+    </p>
+  </section>
+
+  <section id="pledge">
+    <h2>Pledge to Plant Trees 🌱</h2>
+    <p>Join the mission! How many trees would you like to pledge?</p>
+    <input type="number" id="treeCount" min="1" placeholder="Enter number" />
+    <button onclick="addPledge()">Pledge</button>
+    <p id="pledgeMessage"></p>
+    <p>Total Trees Pledged: <span id="totalPledged">0</span></p>
+  </section>
+
+  <section id="impact">
+    <h2>Impact Estimate 📊</h2>
+    <p>Every tree can capture up to 20kg of CO₂ annually.</p>
+    <p>Estimated CO₂ Captured: <span id="co2Captured">0</span> kg/year</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Reforestify. Reclaim. Restore. Reforest.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
